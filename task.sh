@@ -7,5 +7,5 @@ url="$1"
 if [[ $url == https://* ]]; then
     echo "$url"
 else
-    echo "Error"
+    echo "Please enter an actual website. Thank you"
 fi
